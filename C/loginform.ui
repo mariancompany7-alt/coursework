@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginForm</class>
+ <widget class="QDialog" name="LoginForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Вікно авторизації</string>
+  </property>
+  <widget class="QLineEdit" name="leEmail">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>70</y>
+     <width>171</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="placeholderText">
+    <string>логін</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lePassword">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>135</y>
+     <width>171</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="placeholderText">
+    <string>пароль</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbLogIn">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>200</y>
+     <width>171</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Увійти</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
