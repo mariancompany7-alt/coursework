@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>login24.png</file>
+        <file>adminPanel_0.png</file>
+        <file>mainWindow.png</file>
+    </qresource>
+</RCC>
